@@ -26,6 +26,12 @@
 		3DE5F1FA1DCA10CE008915B2 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE5F1FD1DCA10CF008915B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3DE5F2041DCA1127008915B2 /* longestPalindrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = longestPalindrome.h; sourceTree = "<group>"; };
+		F952B2191DEC33A9003ACB1D /* IntegertoRoman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegertoRoman.h; sourceTree = "<group>"; };
+		F9ABCE551DCE08EA007B0F5F /* reverseInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverseInteger.h; sourceTree = "<group>"; };
+		F9ABCE561DCE0DE7007B0F5F /* PalindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalindromeNumber.h; sourceTree = "<group>"; };
+		F9C02F132004AE8A0021E218 /* 760_find_anagram_mappings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 760_find_anagram_mappings.h; sourceTree = "<group>"; };
+		F9C02F46200616A80021E218 /* 535 _encode_and_decode_tinyurl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "535 _encode_and_decode_tinyurl.h"; sourceTree = "<group>"; };
+		F9C919081DEFDAF300FEEB83 /* reverseWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverseWords.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,12 @@
 			children = (
 				3DE5F1FD1DCA10CF008915B2 /* main.cpp */,
 				3DE5F2041DCA1127008915B2 /* longestPalindrome.h */,
+				F9ABCE551DCE08EA007B0F5F /* reverseInteger.h */,
+				F9ABCE561DCE0DE7007B0F5F /* PalindromeNumber.h */,
+				F952B2191DEC33A9003ACB1D /* IntegertoRoman.h */,
+				F9C919081DEFDAF300FEEB83 /* reverseWords.h */,
+				F9C02F132004AE8A0021E218 /* 760_find_anagram_mappings.h */,
+				F9C02F46200616A80021E218 /* 535 _encode_and_decode_tinyurl.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -168,7 +180,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -209,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -248,6 +260,7 @@
 				3DE5F2031DCA10CF008915B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

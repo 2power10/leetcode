@@ -8,9 +8,26 @@
 
 #include <iostream>
 #include <vector>
-#include "longestPalindrome.h"
+#include <thread>
+#include <algorithm>
+#include <iostream>
+#include <vector>
+#include <iterator>
+#include <numeric>
+#include <locale>
+#include <map>
+#include <set>
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    TestLongestPalindrome();
+//    Solution::Test();
+    auto start = chrono::system_clock::now();
+//    Test();    
+    auto end = chrono::system_clock::now();
+    auto diff = chrono::duration_cast<chrono::microseconds>(end - start);
+    std::cout << diff.count() << std::endl;
     return 0;
 }
+
+
