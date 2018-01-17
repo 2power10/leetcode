@@ -17,13 +17,17 @@
 #include <locale>
 #include <map>
 #include <set>
+#include <cmath>
+#include <future>
+
+#include "537_complex_multiplication.h"
 
 using namespace std;
 
+
 int main(int argc, const char * argv[]) {
-//    Solution::Test();
     auto start = chrono::system_clock::now();
-//    Test();    
+    Test();
     auto end = chrono::system_clock::now();
     auto diff = chrono::duration_cast<chrono::microseconds>(end - start);
     std::cout << diff.count() << std::endl;

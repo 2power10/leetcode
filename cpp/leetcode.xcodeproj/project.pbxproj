@@ -32,6 +32,7 @@
 		F9C02F132004AE8A0021E218 /* 760_find_anagram_mappings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 760_find_anagram_mappings.h; sourceTree = "<group>"; };
 		F9C02F46200616A80021E218 /* 535 _encode_and_decode_tinyurl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "535 _encode_and_decode_tinyurl.h"; sourceTree = "<group>"; };
 		F9C919081DEFDAF300FEEB83 /* reverseWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverseWords.h; sourceTree = "<group>"; };
+		F9F812AD200B2840004B10D2 /* 461_hamming_distance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 461_hamming_distance.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 				F9C919081DEFDAF300FEEB83 /* reverseWords.h */,
 				F9C02F132004AE8A0021E218 /* 760_find_anagram_mappings.h */,
 				F9C02F46200616A80021E218 /* 535 _encode_and_decode_tinyurl.h */,
+				F9F812AD200B2840004B10D2 /* 461_hamming_distance.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
