@@ -26,6 +26,7 @@
 		3DE5F1FA1DCA10CE008915B2 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE5F1FD1DCA10CF008915B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3DE5F2041DCA1127008915B2 /* longestPalindrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = longestPalindrome.h; sourceTree = "<group>"; };
+		F94DDB072015896C001E91AC /* utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
 		F952B2191DEC33A9003ACB1D /* IntegertoRoman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegertoRoman.h; sourceTree = "<group>"; };
 		F9ABCE551DCE08EA007B0F5F /* reverseInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reverseInteger.h; sourceTree = "<group>"; };
 		F9ABCE561DCE0DE7007B0F5F /* PalindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalindromeNumber.h; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 				F9C02F132004AE8A0021E218 /* 760_find_anagram_mappings.h */,
 				F9C02F46200616A80021E218 /* 535 _encode_and_decode_tinyurl.h */,
 				F9F812AD200B2840004B10D2 /* 461_hamming_distance.h */,
+				F94DDB072015896C001E91AC /* utility.h */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
